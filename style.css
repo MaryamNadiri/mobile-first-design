@@ -58,10 +58,14 @@ header {
 .first{
     background-color: #e6df94;
     height: 500px;
+    margin: 20px;
+    border-radius: 20px;
 }
 .second{
     background-color: #e9b66e;
     height: 200px;
+    margin: 20px;
+    border-radius: 20px;
 }
 
 @media (min-width: 768px) {
@@ -71,4 +75,23 @@ header {
     .main-nav{
         display: flex;
     }
+    main{
+        display: flex;
+    }
+    .first {
+        width: 75%;
+    }
+    .second {
+        width: 25%;
+        height: 500px;
+    }
+}
+@media(min-width:1200px){
+    .first{
+        background-color: aquamarine;
+    }
+    .second{
+       background-color: greenyellow;
+    }
+
 }
